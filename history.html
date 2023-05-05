@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./history.css">
+    <title>履歴</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><h1>話題提供アプリ トピッカー</h1></a>
+        <button id="menu-icon">&#9776;</button>
+        <button id="menu-delete">✕</button>
+		<nav id="menu">
+			<a href="./index.html">ホーム</a>
+			<a href="./history.html">履歴</a>
+			<a href="./explain.html">このアプリについて</a>
+		</nav>
+        <div id="menu-overlay">
+            <ul>
+                <a href="./index.html" class="menu-item">ホーム</a>
+                <a href="./history.html" class="menu-item">履歴</a>
+                <a href="./explain.html" class="menu-item">このアプリについて</a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>履歴</h2>
+            <ul id="list"></ul>
+        </div>
+    </main>
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./history.js"></script>
+</body>
+</html>

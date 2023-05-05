@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>話題提供アプリ トピッカー</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><h1>話題提供アプリ トピッカー</h1></a>
+        <!-- <h1>話題提供アプリ トピッカー</h1> -->
+        <button id="menu-icon">&#9776;</button>
+        <button id="menu-delete">✕</button>
+		<nav id="menu">
+			<a href="./index.html">ホーム</a>
+			<a href="./history.html">履歴</a>
+			<a href="./explain.html">このアプリについて</a>
+		</nav>
+        <div id="menu-overlay">
+            <ul>
+                <a href="./index.html" class="menu-item">ホーム</a>
+                <a href="./history.html" class="menu-item">履歴</a>
+                <a href="./explain.html" class="menu-item">このアプリについて</a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="finish"></div>
+            <div id="question"></div>
+            <a class="btn-emergency-real">
+                <span class="btn-emergency-real-bottom" id="myButton_bottom"></span>
+                <span onclick="getQuestion()" class="btn-emergency-real-top" id="myButton_top"><span>Get a Talk Theme</span></span>
+            </a>
+        </div>
+    </main>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

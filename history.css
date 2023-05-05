@@ -1,0 +1,9 @@
+
+li{
+    list-style-type: none;
+    border: 0.5mm solid;
+    margin: 2px;
+}
+#list li{
+    background-color: yellow;
+}
